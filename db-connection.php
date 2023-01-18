@@ -1,6 +1,6 @@
 <?php
 $hostname = "localhost";
-$username = "intruder";
-$password = "intruder2030";
+$username = "root";
+$password = "";
 $dbname = "cafeteria_cuisine";
 $conn = mysqli_connect($hostname, $username, $password, $dbname);
