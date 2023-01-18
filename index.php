@@ -81,20 +81,7 @@
                             </span>
                         </button>
                         <div class="collapse navbar-collapse tr-nabar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto align-self-center">
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="#Recipes">Home</a>
-                                </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="menu.php">Menu</a>
-                                </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="about-us.php">About Us</a>
-                                </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="reservations.php">Researvations</a>
-                                </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="place-order.php">Order Online</a>
-                                </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="contact.php">Contact Us</a>
-                                </li>
-                            </ul>
+                            <?php include 'menu-links.php'; ?>
                         <div class="header-search"><input type="text" class="form-control header-input" placeholder="Search" ><span class="search-icon"><i class="fas fa-search"></i></span><span class='close-icon'><i class='fas fa-times'></i></span></div></div>
                     </nav>
                 </div>
