@@ -82,8 +82,7 @@
                 <video  controls loop autoplay width="727" height="600">
                     <source src="assets/videos/productionID-4068787.mp4" type="video/mp4">
                 </video>   
-                <!-- iframe video -->                                 
-               <!-- <iframe class="vid" id="yt" width="727" height="600" src="https://www.youtube.com/embed/7oDb-6kHXZo?autoplay=1" allowfullscreen allow="autoplay"></iframe>  -->
+               
             </div>
         </div>
       </div>
