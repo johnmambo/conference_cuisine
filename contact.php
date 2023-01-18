@@ -70,9 +70,17 @@
              <div class="row specialities-top">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
-                        <h2 class="mb-0">Want to get the latest update?</h2>
+                        <h2 class="mb-0">Contact Us</h2>
                     </div>
-                     <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">There are many variations of passagessuffered alteration or eipsum dolor sit amet, consectetur adipiscing elit, sed do teiusmod tempor.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                     <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
+                     "Welcome to our customer service contact page. We are dedicated to providing our
+                      customers with the best service possible. Here, you will find all the information you 
+                      need to get in touch with us. Our customer service team is available to assist you Monday through 
+                      Friday from 9am to 5pm EST. 
+                       Additionally, you can fill out the contact form on this page to submit an inquiry.
+                        We also have a FAQ section where you can find answers to common questions.
+                      Don't hesitate to reach out to us, we're here to help."
+                     </p>
                 </div>
             </div> 
             <div class="row justify-content-center">
@@ -86,9 +94,9 @@
                 </div>
             </div>
         </div>
+       
     </section>
-    <!--END  email-subscription-->
-
+   
     
 </div>
 <!-- Page Wrapper -->

@@ -80,7 +80,7 @@
                 <div class="slider-tp-content text-center">
                     <span class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">Tasty & Healthy</span>
                     <h2 class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".4s">Food Made With Love!</h2>
-                    <p class="mb-0 text-center-p wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">cafe360 is a restaurant, bar and coffee roastery located on London. We have awesome recipes and the most talented chefs in town. </p>
+                    <p class="mb-0 text-center-p wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">Conference Cuisine is a restaurant, bar and coffee roastery located on London. We have awesome recipes and the most talented chefs in town. </p>
                     <div class="slider-video-section mt-4 mt-md-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                         <div class="slider-obutton">
                             <a href="javascript:void(0);" class="btn">Order Now</a>

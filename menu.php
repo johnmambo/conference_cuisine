@@ -62,7 +62,7 @@
     <!-- End Header -->
 
     <!-- start specialities section -->
-    <section class="specialities position-relative mt-5" id="Recipes">
+    <section class="specialities position-relative mt-5 p-3" id="Recipes">
         <h2 class="d-none">hidden</h2>
         <div class="shape-image-one">
             <img src="assets/images/background-shape/dottd-squre.png" class="img-fluid" alt="the background decorated dotted square image">

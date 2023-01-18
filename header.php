@@ -1,5 +1,5 @@
-    <header class="header mb-5" id="myHeader" style="background-color: black;">
-        <div class="container">
+    <header class="header mt-0" id="myHeader" style="background-color: black;">
+        <div class="container ">
             <div class="row align-items-center">
                 <div class="col-6 col-md-4 col-lg-2 m-0 p-0" >
                 <div class="logo">
@@ -26,7 +26,7 @@
                                 </li>
                                 <li class="nav-item tr-nav-item"><a class="nav-link" href="menu.php">Menu</a>
                                 </li>
-                                <li class="nav-item tr-nav-item"><a class="nav-link" href="about-us.php">About US</a>
+                                <li class="nav-item tr-nav-item"><a class="nav-link" href="about-us.php">About us</a>
                                 </li>
                                 <li class="nav-item tr-nav-item"><a class="nav-link" href="reservations.php">Reservations</a>
                                 </li>
