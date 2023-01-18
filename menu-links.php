@@ -1,5 +1,5 @@
 <ul class="navbar-nav mr-auto align-self-center">
-    <li class="nav-item tr-nav-item"><a class="nav-link" href="#Recipes">Home</a>
+    <li class="nav-item tr-nav-item"><a class="nav-link" href="index.php">Home</a>
     </li>
     <li class="nav-item tr-nav-item"><a class="nav-link" href="menu.php">Menu</a>
     </li>
