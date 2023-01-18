@@ -40,11 +40,11 @@
                                 <?php echo $message; ?>
                                 <div class="form-group">
                                     <label>Username </label>
-                                    <input type="text" class="form-control p_input" name="username">
+                                    <input type="text" class="form-control p_input" name="username" style="color:white !important;">
                                 </div>
                                 <div class="form-group">
                                     <label>Password *</label>
-                                    <input type="text" class="form-control p_input" name="password">
+                                    <input type="password" class="form-control p_input" name="password" style="color:white !important;">
                                 </div>
 
                                 <div class="text-center">
