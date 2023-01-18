@@ -16,7 +16,7 @@
                             </li>
                             <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Reviews</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">TopFoods</a>
+                            <li class="nav-item"><a class="nav-link" href="login.php">Log In</a>
                             </li>
                         </ul>
                     </div>
