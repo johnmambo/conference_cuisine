@@ -36,7 +36,7 @@
         </div>
         <div class="container position-relative">
             <div class="row specialities-top">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12 col-md-12 col-lg-12 mt-4">
                     <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
                         <h2 class="mb-0">About Us</h2>
                     </div>
@@ -55,28 +55,12 @@
                         </div>
                         <div class="col-12 col-md-8 col-lg-7 p-lg-0">
                             <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
-                                <h3 class="mb-0">Magic chef ready to cook a new dish</h3>
+                                <h3 class="mb-0">Our Commitment</h3>
                                 <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s"> We offer the option to book our meeting space online and also the ability to make food orders online, so you can focus on what's important - your meeting or event. </p>
                                 <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">We pride ourselves on our friendly and attentive service, and we look forward to serving you soon!"</p>
                                 <div class="chef-name">Jemmy Deniza</div>
                                 <span>Senior Chef, Conference Cuisine.</span>
-                                <div class="social-share">
-                                    <a class="fb-ic" href="javascript:void(0);">
-                                        <i class="fab fa-facebook-f  mr-4"> </i>
-                                    </a>
-                                    <a class="tw-ic" href="javascript:void(0);">
-                                        <i class="fab fa-twitter  mr-4"> </i>
-                                    </a>
-                                    <a class="ins-ic" href="javascript:void(0);">
-                                        <i class="fab fa-instagram  mr-4"> </i>
-                                    </a>
-                                    <a class="pin-ic" href="javascript:void(0);">
-                                        <i class="fab fa-pinterest  mr-4"> </i>
-                                    </a>
-                                    <a class="sn-ic" href="javascript:void(0);">
-                                      <i class="fab fa-snapchat  mr-4"> </i>
-                                    </a>
-                                </div>
+                             
                             </div>
                         </div>
                     </div>
@@ -92,28 +76,12 @@
                         </div>
                         <div class="col-12 col-md-8 col-lg-7 p-lg-0">
                             <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
-                                <h3 class="mb-0">Chef made a new butter dish</h3>
-                                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">Slightly believable here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in top some form, by injected humour, or randomised words which is to don't look even.</p>
-                                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <h3 class="mb-0">Our Commitment</h3>
+                                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s"> We offer the option to book our meeting space online and also the ability to make food orders online, so you can focus on what's important - your meeting or event. </p>
+                                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">We pride ourselves on our friendly and attentive service, and we look forward to serving you soon!"</p>
                                 <div class="chef-name">Shell Desuza</div>
-                                <span>Senior Chef, Cafe 360.</span>
-                                <div class="social-share">
-                                    <a class="fb-ic" href="javascript:void(0);">
-                                        <i class="fab fa-facebook-f  mr-4"> </i>
-                                    </a>
-                                    <a class="tw-ic" href="javascript:void(0);">
-                                        <i class="fab fa-twitter  mr-4"> </i>
-                                    </a>
-                                    <a class="ins-ic" href="javascript:void(0);">
-                                        <i class="fab fa-instagram  mr-4"> </i>
-                                    </a>
-                                    <a class="pin-ic" href="javascript:void(0);">
-                                        <i class="fab fa-pinterest  mr-4"> </i>
-                                    </a>
-                                    <a class="sn-ic" href="javascript:void(0);">
-                                      <i class="fab fa-snapchat  mr-4"> </i>
-                                    </a>
-                                </div>
+                                <span>Senior Chef, Conference Cuisine</span>
+                               
                             </div>
                         </div>
                     </div>

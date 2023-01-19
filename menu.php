@@ -35,7 +35,7 @@
         </div>
         <div class="container">
             <div class="row specialities-top">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12 col-md-12 col-lg-12 mt-4">
                     <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
                         <h2 class="mb-0">Menu</h2>
                     </div>

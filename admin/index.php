@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Admin | Dashboard</title>
+    <title>Customer | Dashboard</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -28,8 +28,7 @@
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <!-- <a class="sidebar-brand brand-logo" href="index.html">Eats</a>
-          <a class="sidebar-brand brand-logo-mini" href="index.html">Eats</a> -->
+          
         </div>
         <ul class="nav">
           <li class="nav-item profile">
@@ -41,7 +40,7 @@
                 </div>
                 <div class="profile-name">
                   <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-                  <span>Admin Dashboard</span>
+                  <span>Customer Dashboard</span>
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -53,7 +52,7 @@
                     </div>
                   </div>
                   <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                    <p class="preview-subject ellipsis mb-1 text-small">Account Profile</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
@@ -68,16 +67,7 @@
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-calendar-today text-success"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
-                  </div>
-                </a>
+                
               </div>
             </div>
           </li>
@@ -102,14 +92,14 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">All Meals</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Create New</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Generate Report</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-playlist-play"></i>
               </span>
@@ -117,7 +107,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/tables/basic-table.html">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-table-large"></i>
               </span>
@@ -125,7 +115,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/charts/chartjs.html">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-bar"></i>
               </span>
@@ -133,7 +123,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/icons/mdi.html">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-contacts"></i>
               </span>
@@ -150,11 +140,10 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Add New Space </a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Pending Bookings</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Confirmed Bookings </a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Available Spaces </a></li> 
               </ul>
             </div>
           </li>
@@ -182,182 +171,11 @@
             <ul class="navbar-nav w-100">
               <li class="nav-item w-100">
                 <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                  <input type="text" class="form-control" placeholder="Search products">
+                  <input type="text" class="form-control" placeholder="Search in dashboard">
                 </form>
               </li>
             </ul>
-            <ul class="navbar-nav navbar-nav-right">
-              <li class="nav-item dropdown d-none d-lg-block">
-                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-bs-toggle="dropdown" aria-expanded="false" href="#">+ New Meal</a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
-                  <h6 class="p-3 mb-0">Projects</h6>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-file-outline text-primary"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Software Development</p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-web text-info"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">UI Development</p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-layers text-danger"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Software Testing</p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">See all projects</p>
-                </div>
-              </li>
-              <li class="nav-item nav-settings d-none d-lg-block">
-                <a class="nav-link" href="#">
-                  <i class="mdi mdi-view-grid"></i>
-                </a>
-              </li>
-              <li class="nav-item dropdown border-left">
-                <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="mdi mdi-email"></i>
-                  <span class="count bg-success"></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
-                  <h6 class="p-3 mb-0">Messages</h6>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face4.jpg" alt="image" class="rounded-circle profile-pic">
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
-                      <p class="text-muted mb-0"> 1 Minutes ago </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face2.jpg" alt="image" class="rounded-circle profile-pic">
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Cregh send you a message</p>
-                      <p class="text-muted mb-0"> 15 Minutes ago </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face3.jpg" alt="image" class="rounded-circle profile-pic">
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Profile picture updated</p>
-                      <p class="text-muted mb-0"> 18 Minutes ago </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">4 new messages</p>
-                </div>
-              </li>
-              <li class="nav-item dropdown border-left">
-                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
-                  <i class="mdi mdi-bell"></i>
-                  <span class="count bg-danger"></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-                  <h6 class="p-3 mb-0">Notifications</h6>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-calendar text-success"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Event today</p>
-                      <p class="text-muted ellipsis mb-0"> Just a reminder that you have an event today </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-settings text-danger"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Settings</p>
-                      <p class="text-muted ellipsis mb-0"> Update dashboard </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-link-variant text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Launch Admin</p>
-                      <p class="text-muted ellipsis mb-0"> New admin wow! </p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">See all notifications</p>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown">
-                  <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
-                    <i class="mdi mdi-menu-down d-none d-sm-block"></i>
-                  </div>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
-                  <h6 class="p-3 mb-0">Profile</h6>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-settings text-success"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Settings</p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-logout text-danger"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Log out</p>
-                    </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">Advanced settings</p>
-                </div>
-              </li>
-            </ul>
+           
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
               <span class="mdi mdi-format-line-spacing"></span>
             </button>
@@ -702,7 +520,7 @@
                             </td>
                             <td> 02312 </td>
                             <td> $14,500 </td>
-                            <td> App design </td>
+                            <td> App  </td>
                             <td> Credit card </td>
                             <td> 04 Dec 2019 </td>
                             <td>
@@ -758,174 +576,14 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6 col-xl-4 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex flex-row justify-content-between">
-                      <h4 class="card-title">Messages</h4>
-                      <p class="text-muted mb-1 small">View all</p>
-                    </div>
-                    <div class="preview-list">
-                      <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                          <img src="assets/images/faces/face6.jpg" alt="image" class="rounded-circle" />
-                        </div>
-                        <div class="preview-item-content d-flex flex-grow">
-                          <div class="flex-grow">
-                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject">Leonard</h6>
-                              <p class="text-muted text-small">5 minutes ago</p>
-                            </div>
-                            <p class="text-muted">Well, it seems to be working now.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                          <img src="assets/images/faces/face8.jpg" alt="image" class="rounded-circle" />
-                        </div>
-                        <div class="preview-item-content d-flex flex-grow">
-                          <div class="flex-grow">
-                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject">Luella Mills</h6>
-                              <p class="text-muted text-small">10 Minutes Ago</p>
-                            </div>
-                            <p class="text-muted">Well, it seems to be working now.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                          <img src="assets/images/faces/face9.jpg" alt="image" class="rounded-circle" />
-                        </div>
-                        <div class="preview-item-content d-flex flex-grow">
-                          <div class="flex-grow">
-                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject">Ethel Kelly</h6>
-                              <p class="text-muted text-small">2 Hours Ago</p>
-                            </div>
-                            <p class="text-muted">Please review the tickets</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                          <img src="assets/images/faces/face11.jpg" alt="image" class="rounded-circle" />
-                        </div>
-                        <div class="preview-item-content d-flex flex-grow">
-                          <div class="flex-grow">
-                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject">Herman May</h6>
-                              <p class="text-muted text-small">4 Hours Ago</p>
-                            </div>
-                            <p class="text-muted">Thanks a lot. It was easy to fix it .</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-4 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Portfolio Slide</h4>
-                    <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
-                      <div class="item">
-                        <img src="assets/images/dashboard/Rectangle.jpg" alt="">
-                      </div>
-                      <div class="item">
-                        <img src="assets/images/dashboard/Img_5.jpg" alt="">
-                      </div>
-                      <div class="item">
-                        <img src="assets/images/dashboard/img_6.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="d-flex py-4">
-                      <div class="preview-list w-100">
-                        <div class="preview-item p-0">
-                          <div class="preview-thumbnail">
-                            <img src="assets/images/faces/face12.jpg" class="rounded-circle" alt="">
-                          </div>
-                          <div class="preview-item-content d-flex flex-grow">
-                            <div class="flex-grow">
-                              <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                                <h6 class="preview-subject">CeeCee Bass</h6>
-                                <p class="text-muted text-small">4 Hours Ago</p>
-                              </div>
-                              <p class="text-muted">Well, it seems to be working now.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <p class="text-muted">Well, it seems to be working now. </p>
-                    <div class="progress progress-md portfolio-progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 col-xl-4 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">To do list</h4>
-                    <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="enter task..">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
-                    <div class="list-wrapper">
-                      <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Create invoice </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Meeting with Alita </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                        <li class="completed">
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox" checked> Prepare for presentation </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Plan weekend outing </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Pick up kids from school </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+             
              
           </div>
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2021</span>
-              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span>
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Conference Cuisine.com 2023</span> 
             </div>
           </footer>
           <!-- partial -->

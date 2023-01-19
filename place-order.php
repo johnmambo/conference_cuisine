@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="assets/images/logo/favicon.ico" rel="icon">
-    <title>COnference Cuisine</title>
+    <title>COnference Cuisine | Book online</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all-min.css">
@@ -36,7 +36,7 @@
         </div>
         <div class="container">
             <div class="row specialities-top">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12 col-md-12 col-lg-12 mt-5">
                     <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
                         <h2 class="mb-0">Top Item's We Have</h2>
                     </div>

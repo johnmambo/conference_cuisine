@@ -6,15 +6,15 @@
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="footer-menu text-center">
                         <ul>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Home</a>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">About</a>
+                            <li class="nav-item"><a class="nav-link" href="reservations.php">Reservations</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Story</a>
+                            <li class="nav-item"><a class="nav-link" href="login.php">Customer</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Booking</a>
+                            <li class="nav-item"><a class="nav-link" href="login.php">Admin</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Reviews</a>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="login.php">Log In</a>
                             </li>
@@ -25,33 +25,15 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12 text-center">
                     <div class="footer-logo">
-                        <img src="assets/images/footer-images/footer-logo.png" alt="the logo image | Footer cafe Logo" >
+                        <img src="assets/images/logo.png" style="height:150px;" alt="the logo image | Footer cafe Logo" >
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 footer-icon text-center">
-                  <a class="fb-ic " href="javascript:void(0);">
-                    <i class="fab fa-facebook-f wow fadeInDown mr-md-5 mr-2" data-wow-duration="1.5s" data-wow-delay=".4s"> </i>
-                  </a>
-                  <a class="tw-ic" href="javascript:void(0);">
-                    <i class="fab fa-twitter wow fadeInUp mr-md-5 mr-2" data-wow-duration="1.5s" data-wow-delay=".4s"> </i>
-                  </a>
-                  <a class="ins-ic" href="javascript:void(0);">
-                    <i class="fab fa-instagram wow fadeInDown mr-md-5 mr-2" data-wow-duration="1.5s" data-wow-delay=".4s"> </i>
-                  </a>
-                  <a class="pin-ic" href="javascript:void(0);">
-                    <i class="fab fa-pinterest wow fadeInUp mr-md-5 mr-2" data-wow-duration="1.5s" data-wow-delay=".4s"> </i>
-                  </a>
-                  <a class="sn-ic" href="javascript:void(0);">
-                    <i class="fab fa-snapchat wow fadeInDown mr-md-5 mr-2" data-wow-duration="1.5s" data-wow-delay=".4s"> </i>
-                  </a>
-                </div>
-            </div>
+            
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="footer-copylink text-center"><span><i class="fas fa-copyright"></i> All Rights Reserved by Cafe360 I Made with <i class="fas fa-heart" style="color: #ff0000;"></i>  I 2022</span>
+                    <div class="footer-copylink text-center"><span><i class="fas fa-copyright"></i> All Rights Reserved by Conference Cuisine</span>
                     </div>
                 </div>  
             </div>

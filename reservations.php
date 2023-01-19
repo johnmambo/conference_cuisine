@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="assets/images/logo/favicon.ico" rel="icon">
-    <title>COnference Cuisine</title>
+    <title>COnference Cuisine | Reservations</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all-min.css">
@@ -35,7 +35,7 @@
             </div>
             <div class="container">
                 <div class="row specialities-top">
-                    <div class="col-12 col-md-12 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12 mt-5">
                         <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".4s">
                             <h2 class="mb-0">Space Reservations</h2>
                         </div>
@@ -127,9 +127,9 @@
                             <li class="slide-item">
                                 <div class="quote-image"><img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="testimonials six quotes images"></div>
                                 <div class="single-testi-one">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                <p>With our online reservation system, you can easily book one of our meeting rooms for your next business or social gathering. Choose from our various room options, including boardrooms, conference rooms, and break-out rooms.
                                     </p>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    <p>In addition, our online food ordering system allows you to customize your catering needs for your event. Choose from our wide selection of menu items, including breakfast, lunch, and dinner options.
                                     </p>
                                     <h3 class="mb-0">Shofia Anderson</h3>
                                     <span>CEO, Cafe Dine </span>
@@ -146,25 +146,7 @@
     <!--start footer-->
     <?php include 'footer.php'; ?>
     <!--end footer-->
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <i class="fas fa-window-close" style=""></i>
-                </button>
-                <div class="modal-body">
-                    <!-- video tag  -->
-                    <video controls loop autoplay width="727" height="600">
-                        <source src="assets/videos/productionID-4068787.mp4" type="video/mp4">
-                    </video>
-                    <!-- iframe video -->
-                    <!-- <iframe class="vid" id="yt" width="727" height="600" src="https://www.youtube.com/embed/7oDb-6kHXZo?autoplay=1" allowfullscreen allow="autoplay"></iframe>  -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal -->
+ 
     <span class="scroll-top" data-scroll="up">
         <i class="fas fa-long-arrow-alt-up"></i>
     </span>
