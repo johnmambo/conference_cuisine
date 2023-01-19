@@ -12,7 +12,7 @@
                         <span class="count bg-success"></span>
                     </div>
                     <div class="profile-name">
-                        <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
+                        <h5 class="mb-0 font-weight-normal"><?php echo $globalmembername; ?></h5>
                         <span>Customer Dashboard</span>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
             </div>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="logout.php">
                 <span class="menu-icon">
                     <i class="mdi mdi-file-document-box"></i>
                 </span>

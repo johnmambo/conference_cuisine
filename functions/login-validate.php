@@ -8,7 +8,7 @@ if (empty($username) || empty($password)) {
 
     echo "<script>alert('please provide all the details');</script>";
 } else {
-    $checkemail = "SELECT *  FROM `login` WHERE `username` = '$username'";
+    $checkemail = "SELECT *  FROM `users` WHERE `username` = '$username'";
     $queryemail = mysqli_query($conn, $checkemail);
     $checkemailrows = mysqli_num_rows($queryemail);
     if ($checkemailrows >= 1) {
@@ -20,11 +20,9 @@ if (empty($username) || empty($password)) {
                 echo "<script>alert('Incorrect password.');
             </script>";
             } else {
-
                 if ($category == "customer") {
-
                     $_SESSION['customer'] = $username;
-                    echo "<script>window.location.replace('customer/inde.php');</script>";
+                    echo "<script>window.location.replace('customer/index.php');</script>";
                 } else {
 
                     $_SESSION['admin'] = $username;

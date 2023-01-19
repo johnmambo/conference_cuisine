@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="assets/images/logo/favicon.ico" rel="icon">
-    <title>Cafe360 - landing page</title>
+    <title>Conference Cuisine - landing page</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all-min.css">
